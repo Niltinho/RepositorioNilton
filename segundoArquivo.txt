@@ -1,1 +1,2 @@
-Testando o segundo arquivo
+Removi a linha anterior
+Criado a segunda linha no segundoArquivo
