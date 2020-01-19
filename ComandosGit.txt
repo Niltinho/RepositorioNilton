@@ -23,6 +23,7 @@ git diff HEAD~1 (Aponta pro último commit)
 git checkout (Permite ver um determinado arquivo ou todo repositório de um determinado commit)
 git checkout -- (Desfazer as últimas alterações do/s arquivo/s, antes do comando git add)
 git checkout HEAD -- (Desfazer as últimas alterações do/s arquivo/s, caso usou o comando git add)
+git rm "arquivo a ser removido" (Remove o arquivo do repositório)
 
 ls -al (Apresenta todos os arquivos)
 ls (Lista os arquivos na pasta)
