@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config date="1579716633379" transient="false" version="3.0">
+<site enabled="true" policy="USER-EXCLUDE" updateable="true" url="platform:/base/">
+<feature id="org.eclipse.ecf.filetransfer.httpclient4.feature" url="features/org.eclipse.ecf.filetransfer.httpclient4.feature_3.14.0.v20180301-0132/" version="3.14.0.v20180301-0132">
+</feature>
+<feature id="org.eclipse.help" plugin-identifier="org.eclipse.help.base" url="features/org.eclipse.help_2.2.200.v20180611-0500/" version="2.2.200.v20180611-0500">
+</feature>
+<feature id="org.eclipse.mylyn.versions" plugin-identifier="org.eclipse.mylyn.versions.core" url="features/org.eclipse.mylyn.versions_1.16.0.v20170629-1738/" version="1.16.0.v20170629-1738">
+</feature>
+<feature id="com.collabnet.gerrit.workflow.feature" plugin-identifier="com.collabnet.gerrit.workflow" url="features/com.collabnet.gerrit.workflow.feature_5.1.0.201812131859/" version="5.1.0.201812131859">
+</feature>
+<feature id="org.eclipse.ecf.filetransfer.httpclient4.ssl.feature" url="features/org.eclipse.ecf.filetransfer.httpclient4.ssl.feature_1.1.100.v20180301-0132/" version="1.1.100.v20180301-0132">
+</feature>
+<feature id="com.collabnet.desktop.feature" plugin-identifier="com.collabnet.desktop" url="features/com.collabnet.desktop.feature_5.1.0.201812131859/" version="5.1.0.201812131859">
+</feature>
+<feature id="org.eclipse.mylyn.team_feature" plugin-identifier="org.eclipse.mylyn.context.core" url="features/org.eclipse.mylyn.team_feature_3.24.2.v20180905-0014/" version="3.24.2.v20180905-0014">
+</feature>
+<feature id="org.eclipse.mylyn.commons.repositories" plugin-identifier="org.eclipse.mylyn.commons.core" url="features/org.eclipse.mylyn.commons.repositories_1.16.0.v20180904-2231/" version="1.16.0.v20180904-2231">
+</feature>
+<feature id="org.eclipse.equinox.p2.core.feature" url="features/org.eclipse.equinox.p2.core.feature_1.5.0.v20180515-1348/" version="1.5.0.v20180515-1348">
+</feature>
+<feature id="org.eclipse.emf.common" url="features/org.eclipse.emf.common_2.14.0.v20180527-1134/" version="2.14.0.v20180527-1134">
+</feature>
+<feature id="com.collabnet.desktop.gitclient.feature" url="features/com.collabnet.desktop.gitclient.feature_2.2.0.201812171601/" version="2.2.0.201812171601">
+</feature>
+<feature id="org.eclipse.egit" url="features/org.eclipse.egit_5.0.0.201806131550-r/" version="5.0.0.201806131550-r">
+</feature>
+<feature id="org.eclipse.mylyn_feature" plugin-identifier="org.eclipse.mylyn.tasks.core" url="features/org.eclipse.mylyn_feature_3.24.2.v20180905-0003/" version="3.24.2.v20180905-0003">
+</feature>
+<feature id="org.eclipse.egit.mylyn" plugin-identifier="org.eclipse.egit" url="features/org.eclipse.egit.mylyn_5.0.0.201806131550-r/" version="5.0.0.201806131550-r">
+</feature>
+<feature id="org.eclipse.ecf.core.ssl.feature" url="features/org.eclipse.ecf.core.ssl.feature_1.1.100.v20180301-0201/" version="1.1.100.v20180301-0201">
+</feature>
+<feature id="org.eclipse.ecf.filetransfer.ssl.feature" url="features/org.eclipse.ecf.filetransfer.ssl.feature_1.1.100.v20180301-0132/" version="1.1.100.v20180301-0132">
+</feature>
+<feature id="org.eclipse.mylyn.commons.identity" plugin-identifier="org.eclipse.mylyn.commons.core" url="features/org.eclipse.mylyn.commons.identity_1.16.0.v20180904-2231/" version="1.16.0.v20180904-2231">
+</feature>
+<feature id="org.eclipse.mylyn.monitor" plugin-identifier="org.eclipse.mylyn.commons.core" url="features/org.eclipse.mylyn.monitor_3.24.2.v20180904-2231/" version="3.24.2.v20180904-2231">
+</feature>
+<feature id="org.eclipse.mylyn.commons" plugin-identifier="org.eclipse.mylyn.commons.core" url="features/org.eclipse.mylyn.commons_3.24.2.v20180904-2231/" version="3.24.2.v20180904-2231">
+</feature>
+<feature id="org.eclipse.emf.ecore" url="features/org.eclipse.emf.ecore_2.14.0.v20180529-1144/" version="2.14.0.v20180529-1144">
+</feature>
+<feature id="com.collabnet.ee.reports.feature" plugin-identifier="com.collabnet.ee.reports" url="features/com.collabnet.ee.reports.feature_5.1.0.201812131859/" version="5.1.0.201812131859">
+</feature>
+<feature id="org.eclipse.mylyn.commons.notifications" plugin-identifier="org.eclipse.mylyn.commons.core" url="features/org.eclipse.mylyn.commons.notifications_1.16.0.v20180904-2231/" version="1.16.0.v20180904-2231">
+</feature>
+<feature id="com.collabnet.git.feature" plugin-identifier="com.collabnet.git" url="features/com.collabnet.git.feature_5.1.0.201812131859/" version="5.1.0.201812131859">
+</feature>
+<feature id="org.eclipse.ecf.core.feature" url="features/org.eclipse.ecf.core.feature_1.5.0.v20180426-1936/" version="1.5.0.v20180426-1936">
+</feature>
+<feature id="org.eclipse.jgit" url="features/org.eclipse.jgit_5.0.0.201806131550-r/" version="5.0.0.201806131550-r">
+</feature>
+<feature id="org.eclipse.equinox.p2.rcp.feature" url="features/org.eclipse.equinox.p2.rcp.feature_1.4.0.v20180515-1348/" version="1.4.0.v20180515-1348">
+</feature>
+<feature id="org.eclipse.ecf.filetransfer.feature" url="features/org.eclipse.ecf.filetransfer.feature_3.14.0.v20180306-0429/" version="3.14.0.v20180306-0429">
+</feature>
+<feature id="org.eclipse.mylyn.hudson" plugin-identifier="org.eclipse.mylyn.builds.core" url="features/org.eclipse.mylyn.hudson_1.16.0.v20180403-2055/" version="1.16.0.v20180403-2055">
+</feature>
+<feature id="org.eclipse.mylyn.builds" plugin-identifier="org.eclipse.mylyn.builds.core" url="features/org.eclipse.mylyn.builds_1.16.0.v20180905-1907/" version="1.16.0.v20180905-1907">
+</feature>
+<feature id="org.eclipse.mylyn.context_feature" plugin-identifier="org.eclipse.mylyn.context.core" url="features/org.eclipse.mylyn.context_feature_3.24.2.v20180905-0014/" version="3.24.2.v20180905-0014">
+</feature>
+<feature id="org.eclipse.mylyn.discovery" plugin-identifier="org.eclipse.mylyn.commons.core" url="features/org.eclipse.mylyn.discovery_3.24.2.v20180904-2231/" version="3.24.2.v20180904-2231">
+</feature>
+<feature id="org.eclipse.mylyn.commons.repositories.http" plugin-identifier="org.eclipse.mylyn.commons.core" url="features/org.eclipse.mylyn.commons.repositories.http_1.16.0.v20180904-2231/" version="1.16.0.v20180904-2231">
+</feature>
+<feature id="com.collabnet.gerrit.feature" plugin-identifier="com.collabnet.gerrit" url="features/com.collabnet.gerrit.feature_5.1.0.201812131859/" version="5.1.0.201812131859">
+</feature>
+<feature id="com.collabnet.rcp.git.feature" plugin-identifier="com.collabnet.rcp.git.core" url="features/com.collabnet.rcp.git.feature_2.2.0.201812171601/" version="2.2.0.201812171601">
+</feature>
+<feature id="org.eclipse.e4.rcp" url="features/org.eclipse.e4.rcp_1.6.100.v20180611-0422/" version="1.6.100.v20180611-0422">
+</feature>
+<feature id="org.eclipse.mylyn.github.feature" plugin-identifier="org.eclipse.egit" url="features/org.eclipse.mylyn.github.feature_5.0.0.201806131550-r/" version="5.0.0.201806131550-r">
+</feature>
+</site>
+</config>

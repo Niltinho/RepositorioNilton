@@ -1,7 +1,7 @@
 Comandos GIT:
 
 ls ~/.ssh (Verifica na pasta principal se existe o arquivo da chave SSH)
-ssh-keygen -C "E-mail" (Criar chave SSH)
+ssh-keygen -C <E-mail> (Criar chave SSH)
 cat ~/.ssh/id_rsa.pub (Mostrar as informações do arquivo)
 ssh -T git@github.com (Testar conexão com o GITHUB)
 
@@ -9,12 +9,12 @@ git init (Crie um repositório Git vazio ou reinicialize um existente)
 git add (Adiciona o arquivo a ser comitado)
 git add . (Adiciona todos os arquivos do diretório atual)
 git commit (Comita o arquivo adicionado)
-git commit -m "Qualquer descrição" (Será realizado o commit com o comentário dessa alteração)
+git commit -m <Qualquer descrição> (Será realizado o commit com o comentário dessa alteração)
 git log (Verifica o último commit)
 git clone (Clona o repositório no servidor, por exemplo, GITHUB)
 git pull (Baixa as alterações do repositório remoto)
-git config --global user.name "nome de usuário dao GIT"
-git config --global user.email "e-mail configurado no GIT"
+git config --global user.name <nome de usuário dao GIT>
+git config --global user.email <e-mail configurado no GIT>
 git remote add origin (Verificar os remotes de um repositório, a pasta origin é a padrão)
 git fetch (Permite baixar os arquivos que estão no repositório)
 git push (Permite enviar os arquivos pro repositório)
@@ -23,6 +23,12 @@ git diff HEAD~1 (Aponta pro último commit)
 git checkout (Permite ver um determinado arquivo ou todo repositório de um determinado commit)
 git checkout -- (Desfazer as últimas alterações do/s arquivo/s, antes do comando git add)
 git checkout HEAD -- (Desfazer as últimas alterações do/s arquivo/s, caso usou o comando git add)
+git revert <commit> (Desfaz para a última alteração do commit)
+git reset <commit> (Reseta o repositório para um determinado commit)
+git reset --hard <commit> (Desfaz o commit para a última versão commitada)
+git branch (Mostra a branch atual)
+git branch <nova_branch> (Cria uma nova branch)
+git branch -d <nova_branch> (Exclui a branch)
 
 ls -al (Apresenta todos os arquivos)
 ls (Lista os arquivos na pasta)
