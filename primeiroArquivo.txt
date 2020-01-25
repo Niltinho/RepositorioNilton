@@ -1,2 +1,4 @@
 Testando o primeiro arquivo alterado
+Testando a novaBranch
+Testando novamente a novaBranch
 Testando a master
