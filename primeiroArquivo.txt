@@ -4,3 +4,4 @@ Testando novamente a novaBranch
 Testando a master
 
 Testando o comando Rebase
+Testando o comando Rebase novamente

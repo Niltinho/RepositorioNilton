@@ -29,6 +29,11 @@ git reset --hard <commit> (Desfaz o commit para a última versão commitada)
 git branch (Mostra a branch atual)
 git branch <nova_branch> (Cria uma nova branch)
 git branch -d <nova_branch> (Exclui a branch)
+git checkout -b <novaBranch> (Cria a branch e troca pra ela)
+git push -u origin <novaBranch> (Quando criar uma nova branch)
+git merge <branch> (Faz o merge da branch para a branch atual, por exemplo a master) Obs: Usá-la somente se os arquivos divergiram muito
+git rebase <branch> (Semelhante ao merge) Obs: Usá-la quando os arquivos divergirem pouco, melhor usá-la
+git rebase --continue (Confirma o rebase após solucionado os conflitos no arquivo)
 
 ls -al (Apresenta todos os arquivos)
 ls (Lista os arquivos na pasta)
