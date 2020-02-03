@@ -34,6 +34,13 @@ git push -u origin <novaBranch> (Quando criar uma nova branch)
 git merge <branch> (Faz o merge da branch para a branch atual, por exemplo a master) Obs: Usá-la somente se os arquivos divergiram muito
 git rebase <branch> (Semelhante ao merge) Obs: Usá-la quando os arquivos divergirem pouco, melhor usá-la
 git rebase --continue (Confirma o rebase após solucionado os conflitos no arquivo)
+git fetch (Baixa as atualizações do remote porém não aplica elas no repositório)
+		Obs: Melhor utilizar o fetch e rebase do que simplesmente usar o pull.
+git tag (Útil para definir versões estáveis do projeto, semelhante a Branch porém não recebe commits)
+git fetch origin pull/<código da issue>/head:<nome da branch>
+
+Pull Request - É um mecanismo onde um desenvolvedor pode gerar uma notificação que sinaliza a conclusão do desenvolvimento de uma feature qualquer. Isso permite que todos os envolvidos saibam que precisam fazer o merge do código na branch principal. Além disso, podem ser discutidas as alterações em um fórum para possíveis aperfeiçoamentos da feature em questão.
+Para fazer o Pull Request é necessário realizar o "Fork" do repositório em que deseja contribuir.
 
 ls -al (Apresenta todos os arquivos)
 ls (Lista os arquivos na pasta)
