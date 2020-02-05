@@ -38,9 +38,18 @@ git fetch (Baixa as atualizações do remote porém não aplica elas no reposit�
 		Obs: Melhor utilizar o fetch e rebase do que simplesmente usar o pull.
 git tag (Útil para definir versões estáveis do projeto, semelhante a Branch porém não recebe commits)
 git fetch origin pull/<código da issue>/head:<nome da branch>
+git commit -amend (Permite alterar o último commit realizado, antes de dar o push)
+git stash (Guarda as informações em precisar commitar, por exemplo, fazer rebase, merge, trocar de branch)
+git stash list(Mostra a lista de alterações que foram guardadas)
+git stash pop(Pega o último stash da lista e aplica no repositório)
+git cherry-pick (Aplica as alterações de um commit na branch atual)
+git blame (Mostra as alterações feitas em um arquivo e quem a fez (autor))
+git bisect start (Permite buscar o commit realizado, no caso de uma busca binária)
 
 Pull Request - É um mecanismo onde um desenvolvedor pode gerar uma notificação que sinaliza a conclusão do desenvolvimento de uma feature qualquer. Isso permite que todos os envolvidos saibam que precisam fazer o merge do código na branch principal. Além disso, podem ser discutidas as alterações em um fórum para possíveis aperfeiçoamentos da feature em questão.
 Para fazer o Pull Request é necessário realizar o "Fork" do repositório em que deseja contribuir.
+
+Git Milestones - Permite criar issues associado a um objetivo, por exemplo, colocar a porcentagem resolvidas e acompanhá-la, colocar uma data como prazo para entrega.
 
 ls -al (Apresenta todos os arquivos)
 ls (Lista os arquivos na pasta)
