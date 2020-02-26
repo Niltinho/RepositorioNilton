@@ -3,3 +3,4 @@ Comandos Selenium Grid:
 java -jar selenium-server-standalone-3.141.59.jar -role hub -> Criar a conexão para o servidor do Selenium Grid local
 java -jar selenium-server-standalone-3.141.59.jar -role node -> Criar um nó (máquina)
 java -jar selenium-server-standalone-3.141.59.jar -role node -port <5556> -> Criar outro nó (Obs: a porta padrão criada é 5555)
+java -jar selenium-server-standalone-3.141.59.jar -role node -hub <link do máquina Ex: http://192.xxx.xxx.xxx/grid/register> -> Conecta em outra máquina externa
