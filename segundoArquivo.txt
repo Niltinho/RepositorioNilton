@@ -1,2 +1,0 @@
-Removi a linha anterior
-Criado a segunda linha no segundoArquivo
