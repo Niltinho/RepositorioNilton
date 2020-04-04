@@ -13,6 +13,7 @@ git commit -m <Qualquer descrição> (Será realizado o commit com o comentário
 git log (Verifica o último commit)
 git clone (Clona o repositório no servidor, por exemplo, GITHUB)
 git pull (Baixa as alterações do repositório remoto)
+git push origin --force (Fora e baixa as alterações do repositório remoto)
 git config --global user.name <nome de usuário dao GIT>
 git config --global user.email <e-mail configurado no GIT>
 git remote add origin (Verificar os remotes de um repositório, a pasta origin é a padrão)
