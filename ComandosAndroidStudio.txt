@@ -7,3 +7,5 @@ cd tools -> Diretório onde se encontra o emulador
 emulator @Nexus_5x_API_R -> Comando para executar o emulador
 
 adb devices -> Verificar o deviceName para o Appium
+
+uiautomatorviewer -> Inicializar a ferramenta Automator Viewer
